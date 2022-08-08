@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">ListBasic</string>
+    <string-array name="spice">
+        <item>胡椒</item>
+        <item>ターメリック</item>
+        <item>ニンニク</item>
+        <item>コリアンダー</item>
+        <item>サフラン</item>
+    </string-array>
 </resources>
