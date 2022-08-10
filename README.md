@@ -42,6 +42,17 @@ Dialogが生成されたタイミングで呼び出されるメソッド
 ## 実装のポイント
 * （アクティビティではなく、）フラグメントに実装するのが基本
 
+# AndroidManufest.xml
+
+## ポイント的な
+
+```
+<action android:name="android.intent.action.MAIN" />
+<category android:name="android.intent.category.LAUNCHER" />
+```
+~~MAINは、そのアクティビティがエントリーポイントであることを示している。  
+~~LAUNCHERは、アクティビティをランチャーに表示することを意味する。  
+
 # 文法
 
 ## キャスト
